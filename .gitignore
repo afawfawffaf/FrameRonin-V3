@@ -28,6 +28,18 @@ backend/uploads/*
 !backend/uploads/.gitkeep
 backend/outputs/*
 
+# Frontend root 重复/未引用资源（同文件已存在于 public/ 下）
+frontend/acbgm.ogg
+frontend/debg.png
+frontend/decha.png
+frontend/defultbgm.ogg
+frontend/monsterluf.gif
+frontend/bird*.gif
+frontend/dog*.gif
+frontend/combined_*.png
+frontend/qf2*.gif
+frontend/只因*.gif
+
 # IDE
 .vscode
 .idea
