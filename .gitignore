@@ -26,6 +26,7 @@ frontend/dist
 # User uploads / runtime data (禁止提交到任何远程)
 backend/uploads/*
 !backend/uploads/.gitkeep
+backend/outputs/*
 
 # IDE
 .vscode
